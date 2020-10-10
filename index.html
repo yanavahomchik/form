@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="signin" method="POST">
+        <fieldset>
+            <legend> Ваши личные данные: </legend>
+        <label>
+            <input type="text" name="username" required placeholder="Введите ваше имя"> Логин </label>
+        <label> <br>
+            <input type="tel" name="telephone" placeholder="Введите ваш номер"> Номер телефона
+
+        </label> <br>
+        <label>
+            <input type="email" placeholder="Введите ваш email"> Ваш email
+        </label> <br>
+
+        <label>
+            <input type="password" placeholder="Введите пароль"> Пароль
+        </label> <br>
+        <p>Каким браузеров в основном пользуетесь?</p> <br>
+        <input type="radio" name="browser" value="ie"> Internet Explorer <br>
+        <input type="radio" name="browser" value="ie"> Mozilla <br>
+        <input type="radio" name="browser" value="ie"> Opera <br>
+        <input type="radio" name="browser" value="ie"> Google 
+        <p>Ваши пожелания или замечания:</p> <br>
+        <textarea name="comment" placeholder="Текст сообщения"></textarea> <br>
+        <input type="submit" value="Отправить"> 
+        <input type="reset" value="Сбросить"
+
+    </fieldset>
+    </form>
+</body>
+</html>
